@@ -77,7 +77,7 @@ jobs:
         run: |
           aws elasticbeanstalk update-environment \
             --application-name vprofile-app-2 \
-            --environment-name Vprofile-app-2 \
+            --environment-name vprofile-app-2 \
             --version-label ${{ env.VERSION_LABEL }}
 
       - name: Deployment complete
