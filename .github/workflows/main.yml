@@ -130,4 +130,4 @@ jobs:
             --version-label ${{ env.VERSION_LABEL }}
 
       - name: Deployment complete
-        run: echo "Deployed ${{ env.VERSION_LABEL }} to Beanstalk!"
+        run: echo "Deployed ${{ env.VERSION_LABEL }} to Beanstalk!
